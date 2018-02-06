@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.allegro.purchaseService;
+package com.kodilla.good.patterns.allegro.service;
 
 import com.kodilla.good.patterns.allegro.User;
 

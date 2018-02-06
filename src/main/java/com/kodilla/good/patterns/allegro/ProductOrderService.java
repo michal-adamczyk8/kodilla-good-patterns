@@ -1,8 +1,8 @@
 package com.kodilla.good.patterns.allegro;
 
-import com.kodilla.good.patterns.allegro.informationService.InformationService;
-import com.kodilla.good.patterns.allegro.purchaseRepository.PurchaseRepository;
-import com.kodilla.good.patterns.allegro.purchaseService.PurchaseService;
+import com.kodilla.good.patterns.allegro.information.InformationService;
+import com.kodilla.good.patterns.allegro.repository.PurchaseRepository;
+import com.kodilla.good.patterns.allegro.service.PurchaseService;
 
 public class ProductOrderService {
     private InformationService informationService;

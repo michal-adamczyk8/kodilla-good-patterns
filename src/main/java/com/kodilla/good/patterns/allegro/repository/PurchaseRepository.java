@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.allegro.purchaseRepository;
+package com.kodilla.good.patterns.allegro.repository;
 
 import com.kodilla.good.patterns.allegro.User;
 

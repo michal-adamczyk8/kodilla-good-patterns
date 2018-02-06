@@ -1,9 +1,8 @@
 package com.kodilla.good.patterns.allegro;
 
-import com.kodilla.good.patterns.allegro.informationService.InformationService;
-import com.kodilla.good.patterns.allegro.informationService.MailSender;
-import com.kodilla.good.patterns.allegro.purchaseRepository.PurchasedSocksRepository;
-import com.kodilla.good.patterns.allegro.purchaseService.PurchaseSocks;
+import com.kodilla.good.patterns.allegro.information.MailSender;
+import com.kodilla.good.patterns.allegro.repository.PurchasedSocksRepository;
+import com.kodilla.good.patterns.allegro.service.PurchaseSocks;
 
 public class AllegroRunner {
     public static void main(String[] args){
