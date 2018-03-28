@@ -7,7 +7,7 @@ import java.util.Objects;
 
 public class Airport {
     private String name;
-    private static Map<Airport, List<String>> flights = new HashMap<>();
+    //dodac liste godzin odlotow stringow
 
     public Airport(String name) {
         this.name = name;
@@ -17,15 +17,7 @@ public class Airport {
         return name;
     }
 
-    public Map<Airport, List<String>> getFlights() {
-        return flights;
-    }
-
-    public List<String> getListOfDestinations() {
-        return flights.get(getName());
-    }
-
-    @Override
+   @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
